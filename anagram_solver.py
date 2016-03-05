@@ -20,7 +20,7 @@ while True:
           "################################################\n")
     word = input("Input the words separated with space :  ")
     wrdlst = input("Input the path to the wordlist :  ")
-    wordl = word.split("")
+    wordl = word.split(" ")
     wordlist = open(wrdlst, 'r')
     words = wordlist.readlines()
     c = int(0)
